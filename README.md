@@ -19,4 +19,7 @@ Using the same way as terrians to render water tiles. Create an animation_update
 <img src="screenshot/animation.png" alt="Screenshot" style="width: 600px; height: auto;"> <br><br>
 
 ### 4 July  
-Accomplish the function to delete tiles by clicking right mouse button. This works for selected goup of tiles and neighbors will be checked after tail has been removed.
+Accomplish the function to delete tiles by clicking right mouse button. This works for selected goup of tiles and neighbors will be checked after tail has been removed. <br>
+Add a new class named CanvasObject which store the methods of objects(player, sky_handle, palm). By adding object_drag function to achive dragging movement for objects.There is a bug to fix as showing on seconde screenshot, a timer need to add to avoid overlapping palms.<br>
+<img src="screenshot/object1.png" alt="Screenshot" style="width: 400px; height: auto;"> 
+<img src="screenshot/object2.png" alt="Screenshot" style="width: 400px; height: auto;"> <br><br>

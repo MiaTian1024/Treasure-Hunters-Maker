@@ -17,3 +17,6 @@ Create a seperate support.py file to store import_folder functions. Get a curren
 ### 3 July - create menu 
 Using the same way as terrians to render water tiles. Create an animation_update function to import different animation graphics and render specific animation according to user's choice. Following screenshot shows the different animation graphics <br>
 <img src="screenshot/animation.png" alt="Screenshot" style="width: 600px; height: auto;"> <br><br>
+
+### 4 July  
+Accomplish the function to delete tiles by clicking right mouse button. This works for selected goup of tiles and neighbors will be checked after tail has been removed.

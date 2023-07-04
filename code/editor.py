@@ -297,6 +297,24 @@ class Editor:
                 self.display_surface.blit(surf, rect)
         self.canvas_objects.draw(self.display_surface)
 
+    def preview(self):
+        selected_object = self.mouse_on_object()
+        if not self.menu.rect.collidepoint(mouse_pos()):
+            if selected_object:
+                rect = selected_object.rect.inflate(10, 10)
+                color = 'black'
+                width = 3
+                size = 15
+
+                # topleft
+                pygame.draw.lines(self.display_surface, color, False, ((rect.left, rect.top +size), rect.topleft, (rect.left + size, rect.top)), width)
+                # topright
+                pygame.draw.lines(self.display_surface, color, False, ((rect.right, rect.top +size), rect.topright, (rect.right - size, rect.top)), width)
+                # bottomright
+                pygame.draw.lines(self.display_surface, color, False, ((rect.right, rect.bottom -size), rect.bottomright, (rect.right - size, rect.bottom)), width)
+                # bottomleft
+                pygame.draw.lines(self.display_surface, color, False, ((rect.left, rect.bottom - size), rect.bottomleft, (rect.left + size, rect.bottom)), width)
+
     # update
     def run(self, dt):
         self.event_loop()
@@ -311,6 +329,7 @@ class Editor:
         self.draw_level()
         self.draw_tile_lines()
         pygame.draw.circle(self.display_surface, 'red', self.origin, 10)
+        self.preview()
         self.menu.display(self.selection_index)
 
 

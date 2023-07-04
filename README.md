@@ -23,3 +23,5 @@ Accomplish the function to delete tiles by clicking right mouse button. This wor
 Add a new class named CanvasObject which store the methods of objects(player, sky_handle, palm). By adding object_drag function to achive dragging movement for objects.There is a bug to fix as showing on seconde screenshot, a timer need to add to avoid overlapping palms.<br>
 <img src="screenshot/object1.png" alt="Screenshot" style="width: 400px; height: auto;"> 
 <img src="screenshot/object2.png" alt="Screenshot" style="width: 400px; height: auto;"> <br><br>
+Fixed the bug by adding a timer checking.<br>
+<img src="screenshot/object3.png" alt="Screenshot" style="width: 600px; height: auto;"> <br><br>

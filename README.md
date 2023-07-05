@@ -1,4 +1,4 @@
-# Treasure-Hunters-Pygame
+# Treasure-Hunters-Maker
 
 ## Diary
 ### 1 July - initial setup 
@@ -25,3 +25,9 @@ Add a new class named CanvasObject which store the methods of objects(player, sk
 <img src="screenshot/object2.png" alt="Screenshot" style="width: 400px; height: auto;"> <br><br>
 Fixed the bug by adding a timer checking.<br>
 <img src="screenshot/object3.png" alt="Screenshot" style="width: 600px; height: auto;"> <br><br>
+
+### 5 July 
+Add preview effect for object when hover over and add preview for selected tiles before placing them on the map.<br>
+<img src="screenshot/preview1.png" alt="Screenshot" style="width: 200px; height: auto;"> 
+<img src="screenshot/preview2.png" alt="Screenshot" style="width: 200px; height: auto;"> 
+<img src="screenshot/preview3.png" alt="Screenshot" style="width: 200px; height: auto;"> <br><br>

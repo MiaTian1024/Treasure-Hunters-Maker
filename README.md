@@ -31,3 +31,5 @@ Add preview effect for object when hover over and add preview for selected tiles
 <img src="screenshot/preview1.png" alt="Screenshot" style="width: 200px; height: auto;"> 
 <img src="screenshot/preview2.png" alt="Screenshot" style="width: 200px; height: auto;"> 
 <img src="screenshot/preview3.png" alt="Screenshot" style="width: 200px; height: auto;"> <br><br>
+Add sky and clouds, a horizon line which can be adjusted by sky handle. Sea under horizon line.<br>
+<img src="screenshot/sky.png" alt="Screenshot" style="width: 600px; height: auto;"> <br><br>

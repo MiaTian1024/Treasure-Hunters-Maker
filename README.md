@@ -1,5 +1,12 @@
 # Treasure-Hunters-Maker
 
+## Demo  
+
+
+https://github.com/MiaTian1024/Treasure-Hunters-Maker/assets/115113902/2e94ba20-c70b-403f-9d43-a0253724e0ee
+
+
+
 ## Diary
 ### 1 July - initial setup 
 Add settings.py to store different variables. Create origin point and draw support lines. Change mouse cursor effect. <br>
